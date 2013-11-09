@@ -10,6 +10,7 @@
   $.fn.cookieBar = function( options ) {  
 	var settings = $.extend( {
       'closeButton' : 'none',
+      'closeButtonText' : 'Continue',
 	  'secure' : false,
 	  'path' : '/',
 	  'domain' : ''
@@ -24,7 +25,7 @@
 		// if close button not defined. define it!
 		if(settings.closeButton == 'none')
 		{
-			cookiebar.append('<a class="cookiebar-close">Continue</a>');
+            cookiebar.append('<a class="cookiebar-close">' + settings.closeButtonText + '</a>');
 			settings = $.extend( {
 				'closeButton' : '.cookiebar-close'
 			}, options);
