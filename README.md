@@ -58,6 +58,18 @@ Full Example
 	
 *Default: a close button will be added automagically*
 
+**closeButtonText** - Set the text for the auto-generated close button
+
+    closeButtonText: 'Continue'
+	
+*Default: "Continue"*
+
+**closeEffect** - Choose to have the bar hide instantly or fade out when closed
+
+    closeEffect: 'hide'
+	
+*Default: bar disappears instantly when closed*
+
 **secure** - Define if the cookie transmission requires secure protocal (https)
 
 	secure: true
