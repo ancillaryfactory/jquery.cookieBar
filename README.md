@@ -64,7 +64,7 @@ Full Example
 	
 *Default: "Continue"*
 
-**closeEffect** - Choose to have the bar hide instantly or fade out when closed
+**closeEffect** - Use 'hide' to hide the bar instantly or 'fade' to make it gradually disappear
 
     closeEffect: 'hide'
 	
